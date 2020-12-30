@@ -132,7 +132,7 @@
     
     CGContextRef spriteContext = CGBitmapContextCreate(spriteData, width, height, 8, width*4,
                                                        CGImageGetColorSpace(spriteImage), kCGImageAlphaPremultipliedLast);
-    
+    //翻转图片
 //        CGContextClearRect( spriteContext, CGRectMake( 0, 0, width, height ) );
 //        CGContextTranslateCTM (spriteContext, 0, height);
 //        CGContextScaleCTM (spriteContext, 1.0, -1.0);
@@ -173,14 +173,23 @@
     glEnableVertexAttribArray(textcoordinate);
     
     
-    //前三个是顶点坐标， 后面两个是纹理坐标
+    //2 顶点位置 2 纹理坐标
+    //前两个是顶点坐标【笛卡尔坐标系，原点是屏幕中心点】， 后面两个是纹理坐标【与屏幕坐标类似（镜像关系），原点是屏幕左下角】
+    //openGL顶点位置坐标 【笛卡尔坐标系，原点是屏幕中心点】注意点：坐标被映射到（-1, 1）之间
+    //openGL纹理位置坐标 【与屏幕坐标类似（镜像关系），原点是屏幕左下角】注意点：坐标被映射到（0, 1）之间（有上下翻转操作【1.处理图片 2.处理纹理坐标】）
+    //iOS屏幕位置坐标    【屏幕坐标系，原点在屏幕左上角】
     GLfloat attrArr[] =
     {
-        -1.0f, 1.0f, 0.5f, 0.0f,
-               1.0f, 1.0f, 1.0f, 0.0f,
-               -1.0f, -1.0f, 0.5f, 1.0f,
-               1.0f, -1.0f, 1.0f, 1.0f,
+        -0.5f, 0.5f, 0.0f, 0.0f,//左上-左下
+        0.5f, 0.5f, 1.0f, 0.0f,//右上-右下
+        -0.5f, -0.5f, 0.0, 1.0f,//左下-左上
+        0.5f, -0.5f, 1.0f, 1.0f,//右下-右上
     };
+    
+    //翻转图片
+//        CGContextClearRect( spriteContext, CGRectMake( 0, 0, width, height ) );
+//        CGContextTranslateCTM (spriteContext, 0, height);
+//        CGContextScaleCTM (spriteContext, 1.0, -1.0);
     
     GLuint attrBuffer;
     /// 申请标识符 1是数量 第二个参数是一个指针 ，指向生成的标识符的内存保持位置
