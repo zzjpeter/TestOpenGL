@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  openGLController.h
 //  学习OpenGL1
 //
 //  Created by liter on 16/10/20.
@@ -7,11 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+#import <GLKit/GLKit.h>
+@interface openGLController : GLKViewController
 
 @end
-

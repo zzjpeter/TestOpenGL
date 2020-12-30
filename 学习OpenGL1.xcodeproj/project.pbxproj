@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16F2F46C95714F56580FD38E /* Pods___OpenGL1___OpenGL1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF898211789BCF4E69E01BD /* Pods___OpenGL1___OpenGL1UITests.framework */; };
 		55FC3EB31DB8534D00EB7536 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FC3EB21DB8534D00EB7536 /* main.m */; };
 		55FC3EB61DB8534D00EB7536 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FC3EB51DB8534D00EB7536 /* AppDelegate.m */; };
 		55FC3EB91DB8534D00EB7536 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FC3EB81DB8534D00EB7536 /* ViewController.m */; };
@@ -15,6 +16,16 @@
 		55FC3EC11DB8534D00EB7536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FC3EBF1DB8534D00EB7536 /* LaunchScreen.storyboard */; };
 		55FC3ECC1DB8534D00EB7536 /* __OpenGL1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FC3ECB1DB8534D00EB7536 /* __OpenGL1Tests.m */; };
 		55FC3ED71DB8534D00EB7536 /* __OpenGL1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FC3ED61DB8534D00EB7536 /* __OpenGL1UITests.m */; };
+		55FC3EE51DB8536100EB7536 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FC3EE41DB8536100EB7536 /* OpenGLES.framework */; };
+		55FC3EE71DB8544100EB7536 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FC3EE61DB8544000EB7536 /* 2.png */; };
+		55FC3EED1DB854CE00EB7536 /* openGLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FC3EEC1DB854CE00EB7536 /* openGLController.m */; };
+		55FC3EF31DB8653200EB7536 /* openGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FC3EF21DB8653200EB7536 /* openGLView.m */; };
+		55FC3EF61DB8669700EB7536 /* GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FC3EF51DB8669700EB7536 /* GLProgram.m */; };
+		55FC3EFC1DB86BCD00EB7536 /* shaderv.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 55FC3EFB1DB86BCD00EB7536 /* shaderv.vsh */; };
+		55FC3EFE1DB86BD800EB7536 /* shaderf.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 55FC3EFD1DB86BD800EB7536 /* shaderf.fsh */; };
+		E25A96C4438718FFF030954E /* Pods___OpenGL1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85B58A80F3BDD05CE1017AD /* Pods___OpenGL1Tests.framework */; };
+		E650A1062487C2F000CEAD42 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = E650A1052487C2F000CEAD42 /* first.png */; };
+		E650A1082487CBD700CEAD42 /* wheel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E650A1072487CBD700CEAD42 /* wheel.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52CA968C090413841DF654DD /* Pods-学习OpenGL1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-学习OpenGL1Tests.release.xcconfig"; path = "Target Support Files/Pods-学习OpenGL1Tests/Pods-学习OpenGL1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		55FC3EAE1DB8534D00EB7536 /* 学习OpenGL1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "学习OpenGL1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FC3EB21DB8534D00EB7536 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55FC3EB41DB8534D00EB7536 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,26 @@
 		55FC3ED21DB8534D00EB7536 /* 学习OpenGL1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "学习OpenGL1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FC3ED61DB8534D00EB7536 /* __OpenGL1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __OpenGL1UITests.m; sourceTree = "<group>"; };
 		55FC3ED81DB8534D00EB7536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55FC3EE41DB8536100EB7536 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		55FC3EE61DB8544000EB7536 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		55FC3EEB1DB854CE00EB7536 /* openGLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openGLController.h; sourceTree = "<group>"; };
+		55FC3EEC1DB854CE00EB7536 /* openGLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openGLController.m; sourceTree = "<group>"; };
+		55FC3EF11DB8653200EB7536 /* openGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openGLView.h; sourceTree = "<group>"; };
+		55FC3EF21DB8653200EB7536 /* openGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openGLView.m; sourceTree = "<group>"; };
+		55FC3EF41DB8669700EB7536 /* GLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLProgram.h; sourceTree = "<group>"; };
+		55FC3EF51DB8669700EB7536 /* GLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLProgram.m; sourceTree = "<group>"; };
+		55FC3EFB1DB86BCD00EB7536 /* shaderv.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shaderv.vsh; sourceTree = "<group>"; };
+		55FC3EFD1DB86BD800EB7536 /* shaderf.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shaderf.fsh; sourceTree = "<group>"; };
+		66DDEE41E6D7078E37D58238 /* Pods-学习OpenGL1-学习OpenGL1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-学习OpenGL1-学习OpenGL1UITests.debug.xcconfig"; path = "Target Support Files/Pods-学习OpenGL1-学习OpenGL1UITests/Pods-学习OpenGL1-学习OpenGL1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D7C4D5AEE1079E6757DB2DB /* Pods___OpenGL1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___OpenGL1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F148C2A7FD41DD44E42EC0 /* Pods-学习OpenGL1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-学习OpenGL1Tests.debug.xcconfig"; path = "Target Support Files/Pods-学习OpenGL1Tests/Pods-学习OpenGL1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA81B696333B7CECF7D939ED /* Pods-学习OpenGL1-学习OpenGL1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-学习OpenGL1-学习OpenGL1UITests.release.xcconfig"; path = "Target Support Files/Pods-学习OpenGL1-学习OpenGL1UITests/Pods-学习OpenGL1-学习OpenGL1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF030744C0F59A1A74E2B2D1 /* Pods-学习OpenGL1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-学习OpenGL1.debug.xcconfig"; path = "Target Support Files/Pods-学习OpenGL1/Pods-学习OpenGL1.debug.xcconfig"; sourceTree = "<group>"; };
+		D85B58A80F3BDD05CE1017AD /* Pods___OpenGL1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___OpenGL1Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E650A1052487C2F000CEAD42 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		E650A1072487CBD700CEAD42 /* wheel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = wheel.mp4; sourceTree = "<group>"; };
+		EFF898211789BCF4E69E01BD /* Pods___OpenGL1___OpenGL1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___OpenGL1___OpenGL1UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4935D9C7BCCD9AA5459D42D /* Pods-学习OpenGL1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-学习OpenGL1.release.xcconfig"; path = "Target Support Files/Pods-学习OpenGL1/Pods-学习OpenGL1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FC3EE51DB8536100EB7536 /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25A96C4438718FFF030954E /* Pods___OpenGL1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F2F46C95714F56580FD38E /* Pods___OpenGL1___OpenGL1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +116,13 @@
 		55FC3EA51DB8534D00EB7536 = {
 			isa = PBXGroup;
 			children = (
+				55FC3EE41DB8536100EB7536 /* OpenGLES.framework */,
 				55FC3EB01DB8534D00EB7536 /* 学习OpenGL1 */,
 				55FC3ECA1DB8534D00EB7536 /* 学习OpenGL1Tests */,
 				55FC3ED51DB8534D00EB7536 /* 学习OpenGL1UITests */,
 				55FC3EAF1DB8534D00EB7536 /* Products */,
+				E12D07D094873A3FDA3DEA1B /* Pods */,
+				CF8A71D8BF8B4BF36B9DDBDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +139,26 @@
 		55FC3EB01DB8534D00EB7536 /* 学习OpenGL1 */ = {
 			isa = PBXGroup;
 			children = (
+				E650A1052487C2F000CEAD42 /* first.png */,
+				55FC3EE61DB8544000EB7536 /* 2.png */,
+				E650A1072487CBD700CEAD42 /* wheel.mp4 */,
+				55FC3EF41DB8669700EB7536 /* GLProgram.h */,
+				55FC3EF51DB8669700EB7536 /* GLProgram.m */,
 				55FC3EB41DB8534D00EB7536 /* AppDelegate.h */,
 				55FC3EB51DB8534D00EB7536 /* AppDelegate.m */,
 				55FC3EB71DB8534D00EB7536 /* ViewController.h */,
 				55FC3EB81DB8534D00EB7536 /* ViewController.m */,
+				55FC3EF11DB8653200EB7536 /* openGLView.h */,
+				55FC3EF21DB8653200EB7536 /* openGLView.m */,
+				55FC3EFB1DB86BCD00EB7536 /* shaderv.vsh */,
+				55FC3EFD1DB86BD800EB7536 /* shaderf.fsh */,
 				55FC3EBA1DB8534D00EB7536 /* Main.storyboard */,
 				55FC3EBD1DB8534D00EB7536 /* Assets.xcassets */,
 				55FC3EBF1DB8534D00EB7536 /* LaunchScreen.storyboard */,
 				55FC3EC21DB8534D00EB7536 /* Info.plist */,
 				55FC3EB11DB8534D00EB7536 /* Supporting Files */,
+				55FC3EEB1DB854CE00EB7536 /* openGLController.h */,
+				55FC3EEC1DB854CE00EB7536 /* openGLController.m */,
 			);
 			path = "学习OpenGL1";
 			sourceTree = "<group>";
@@ -140,6 +189,29 @@
 			path = "学习OpenGL1UITests";
 			sourceTree = "<group>";
 		};
+		CF8A71D8BF8B4BF36B9DDBDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D7C4D5AEE1079E6757DB2DB /* Pods___OpenGL1.framework */,
+				EFF898211789BCF4E69E01BD /* Pods___OpenGL1___OpenGL1UITests.framework */,
+				D85B58A80F3BDD05CE1017AD /* Pods___OpenGL1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E12D07D094873A3FDA3DEA1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF030744C0F59A1A74E2B2D1 /* Pods-学习OpenGL1.debug.xcconfig */,
+				F4935D9C7BCCD9AA5459D42D /* Pods-学习OpenGL1.release.xcconfig */,
+				66DDEE41E6D7078E37D58238 /* Pods-学习OpenGL1-学习OpenGL1UITests.debug.xcconfig */,
+				BA81B696333B7CECF7D939ED /* Pods-学习OpenGL1-学习OpenGL1UITests.release.xcconfig */,
+				75F148C2A7FD41DD44E42EC0 /* Pods-学习OpenGL1Tests.debug.xcconfig */,
+				52CA968C090413841DF654DD /* Pods-学习OpenGL1Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55FC3EDB1DB8534D00EB7536 /* Build configuration list for PBXNativeTarget "学习OpenGL1" */;
 			buildPhases = (
+				9261190F6726AAB621DA05E3 /* [CP] Check Pods Manifest.lock */,
 				55FC3EAA1DB8534D00EB7536 /* Sources */,
 				55FC3EAB1DB8534D00EB7536 /* Frameworks */,
 				55FC3EAC1DB8534D00EB7536 /* Resources */,
+				26117CFEF6C6B93BD9268BF6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55FC3EDE1DB8534D00EB7536 /* Build configuration list for PBXNativeTarget "学习OpenGL1Tests" */;
 			buildPhases = (
+				D06EF1708A99DDC1980E1B25 /* [CP] Check Pods Manifest.lock */,
 				55FC3EC31DB8534D00EB7536 /* Sources */,
 				55FC3EC41DB8534D00EB7536 /* Frameworks */,
 				55FC3EC51DB8534D00EB7536 /* Resources */,
@@ -182,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55FC3EE11DB8534D00EB7536 /* Build configuration list for PBXNativeTarget "学习OpenGL1UITests" */;
 			buildPhases = (
+				15D32FC1039E0BB97B4191BA /* [CP] Check Pods Manifest.lock */,
 				55FC3ECE1DB8534D00EB7536 /* Sources */,
 				55FC3ECF1DB8534D00EB7536 /* Frameworks */,
 				55FC3ED01DB8534D00EB7536 /* Resources */,
+				9F75FB76B8F398D12DAA5F3F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,6 +284,8 @@
 				TargetAttributes = {
 					55FC3EAD1DB8534D00EB7536 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9Z78449GFH;
+						ProvisioningStyle = Manual;
 					};
 					55FC3EC61DB8534D00EB7536 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -223,6 +302,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -245,6 +325,11 @@
 			files = (
 				55FC3EC11DB8534D00EB7536 /* LaunchScreen.storyboard in Resources */,
 				55FC3EBE1DB8534D00EB7536 /* Assets.xcassets in Resources */,
+				E650A1062487C2F000CEAD42 /* first.png in Resources */,
+				55FC3EFC1DB86BCD00EB7536 /* shaderv.vsh in Resources */,
+				55FC3EFE1DB86BD800EB7536 /* shaderf.fsh in Resources */,
+				E650A1082487CBD700CEAD42 /* wheel.mp4 in Resources */,
+				55FC3EE71DB8544100EB7536 /* 2.png in Resources */,
 				55FC3EBC1DB8534D00EB7536 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,14 +350,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15D32FC1039E0BB97B4191BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-学习OpenGL1-学习OpenGL1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26117CFEF6C6B93BD9268BF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-学习OpenGL1/Pods-学习OpenGL1-frameworks.sh",
+				"${PODS_ROOT}/LookinServer/LookinServer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LookinServer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-学习OpenGL1/Pods-学习OpenGL1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9261190F6726AAB621DA05E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-学习OpenGL1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F75FB76B8F398D12DAA5F3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-学习OpenGL1-学习OpenGL1UITests/Pods-学习OpenGL1-学习OpenGL1UITests-frameworks.sh",
+				"${PODS_ROOT}/LookinServer/LookinServer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LookinServer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-学习OpenGL1-学习OpenGL1UITests/Pods-学习OpenGL1-学习OpenGL1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D06EF1708A99DDC1980E1B25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-学习OpenGL1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55FC3EAA1DB8534D00EB7536 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FC3EF31DB8653200EB7536 /* openGLView.m in Sources */,
 				55FC3EB91DB8534D00EB7536 /* ViewController.m in Sources */,
 				55FC3EB61DB8534D00EB7536 /* AppDelegate.m in Sources */,
+				55FC3EED1DB854CE00EB7536 /* openGLController.m in Sources */,
 				55FC3EB31DB8534D00EB7536 /* main.m in Sources */,
+				55FC3EF61DB8669700EB7536 /* GLProgram.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,28 +606,41 @@
 		};
 		55FC3EDC1DB8534D00EB7536 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF030744C0F59A1A74E2B2D1 /* Pods-学习OpenGL1.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9Z78449GFH;
 				INFOPLIST_FILE = "学习OpenGL1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "www.aishen.com.--OpenGL1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgh.teaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = cgh.development;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		55FC3EDD1DB8534D00EB7536 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4935D9C7BCCD9AA5459D42D /* Pods-学习OpenGL1.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9Z78449GFH;
 				INFOPLIST_FILE = "学习OpenGL1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "www.aishen.com.--OpenGL1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgh.teaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = cgh.development;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
 		55FC3EDF1DB8534D00EB7536 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F148C2A7FD41DD44E42EC0 /* Pods-学习OpenGL1Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "学习OpenGL1Tests/Info.plist";
@@ -447,6 +653,7 @@
 		};
 		55FC3EE01DB8534D00EB7536 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CA968C090413841DF654DD /* Pods-学习OpenGL1Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "学习OpenGL1Tests/Info.plist";
@@ -459,6 +666,7 @@
 		};
 		55FC3EE21DB8534D00EB7536 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66DDEE41E6D7078E37D58238 /* Pods-学习OpenGL1-学习OpenGL1UITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "学习OpenGL1UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -470,6 +678,7 @@
 		};
 		55FC3EE31DB8534D00EB7536 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA81B696333B7CECF7D939ED /* Pods-学习OpenGL1-学习OpenGL1UITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "学习OpenGL1UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +707,7 @@
 				55FC3EDD1DB8534D00EB7536 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55FC3EDE1DB8534D00EB7536 /* Build configuration list for PBXNativeTarget "学习OpenGL1Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +716,7 @@
 				55FC3EE01DB8534D00EB7536 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55FC3EE11DB8534D00EB7536 /* Build configuration list for PBXNativeTarget "学习OpenGL1UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +725,7 @@
 				55FC3EE31DB8534D00EB7536 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
